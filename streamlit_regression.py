@@ -19,7 +19,7 @@ with open('reg_scaler.pkl', 'rb') as file:
     scaler=pickle.load(file)   
 
 ##streamlit app
-st.title('Estimated Salary Predictio')
+st.title('Estimated Salary Prediction')
 
 ##user input
 geography = st.selectbox('Geography', one_hot_encoder_geo.categories_[0])
